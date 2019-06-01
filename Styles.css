@@ -1,0 +1,171 @@
+body {
+	background-color: #96A63E; 
+	text-align: left;
+}
+a {
+	color: #E15A02;
+}
+a:hover {
+	color: #E1A302;
+}
+a:active {
+	color: #C1024F;
+}
+a:visited {
+	color: #FF954F;
+}
+input:focus {
+	color:#3B119A;
+}
+button:active {
+	color: #C1024F;
+	background-color: yellow ;
+}
+
+title{
+	text-align: center;
+}
+
+p.para {
+	border: 3px double lightblue;
+	border-radius: 10px; 
+	border-width: 10px;
+}
+
+span { 						/* O spaan está em display none*/
+	display: block;
+	display: none;
+}
+
+
+
+#menu{
+	height: 100px;
+	width: 100%;
+	background-color: #67A2A2;
+	margin-left: 3px;
+	text-align: center;
+	
+}
+
+#Pai {
+	height: 100%;
+	width: 100%;
+	border:1px none none;
+	 display: flex;
+  align-items: flex-end;
+  background-color: #C84331;
+}
+
+
+#esquerdo {
+	height: 100%;
+	width: 14%;
+	background-color: #083636;
+	float: left;
+	text-align: center;
+	margin-left: 0.202%;
+	margin-right: 0%;
+}
+#centro {
+	height: 100%;
+	width: 83.6%;
+	background-color: #6B2B70;
+ 	float: right;
+ 	/*margin-left: ;*/
+ 	/*padding-left: 1.5%;*/
+ 	margin-right: 0.2%;
+ 	padding-left: 2%;
+
+ 	
+ }
+
+#rodapé {
+	height: 100%;
+	width: 100%;
+	background-color: #276767;
+	float: right;
+	border:3px outset #96A63E;
+	float: center;
+	margin-left: 3px;
+	text-align: center;
+}
+
+
+#imagem {
+	width: 60%;
+	height: 40%;
+	
+}
+
+
+#img2 {
+	width: 100%;
+	transition: width,height 700ms  ease;
+}
+
+#img2:hover {
+	width: 150px;
+	height: 250px;
+	animation: exemple 500ms linear ;
+}
+#toon{              	
+	position: relative ;
+	left: 90%;
+	top:  450px;
+	height: 150px;
+	width: 100px;
+	
+	}
+
+
+
+.box{
+	margin :30px 30px 30px 30px;
+	padding: 30px ;
+	border: 5px solid green;
+	width: 80px;
+	height:140px;
+	background-color: silver ;
+	transition: background 600ms  ease;
+
+
+
+}
+
+.box:hover {
+	background-color: red;
+/*	border: 5px outset gold;  */
+	animation: anime 500ms linear ;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.tabela {
+	background-color:#AE9D3A; 
+	color: gold;
+	border: 1px solid black;
+
+}
+
+.tb{
+
+	border:3px solid black;
+}
+
+
+.texto {
+	background: white;
+	color: #7BA136;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+@keyframes anime {
+	0% {background-color:red; }
+  25%  {background-color:yellow; }
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red; }
+}

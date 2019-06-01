@@ -1,0 +1,127 @@
+<!DOCTYPE html>  <!-- tag para definir que é para html 5 -->
+<!-- para que as imagens sejam carregadas é necessário que as imagens fiquem em uma pasta com nome "img" -->
+
+<html lang="pt-br">
+
+<head>			 <!--Parte não visual do site-->
+	<title class="middle">Primeiro HTML!</title>
+	<meta name="author" content="Victor Hugo Duarte" /> 	 <!--Explica coisas sobre o site-->
+	<meta name="description" content="Página para aprender html 5" />
+	<meta name="viewport" content="width=device-width, user-scalable= no, initial-scale=1, maximus-scale=1">
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+
+<body>				 <!--Parte visual do site-->
+	<div id="pai">
+		 <div id="menu">
+		
+		  <p>
+		  	<a class="link" href="Index.html""><h1 title="E tenha um bom dia!!!"> Olá!</h1></a>
+		  </p>
+		  <p class="para">
+		  	<a href="/sobre.html"> Sobre </a>
+			<a href="Index.html"> Index </a>
+		 	<a href="/fotos.html"> Fotos</a>
+		  	<a href="/cont.html"> Contato </a>
+		 </p>
+	 </div>
+
+	 <div id="esquerdo">
+			<p class="texto"> O mago é implcável </p>
+				<br>
+			<img id="img2" align="center" src="img/imagem3.jpg">
+			<ul>
+			<li title="Primeiro elemento">Pontinho 1</li>
+			<li title="Segundo elemento">Pontinho 2</li>
+			<li title="Terceiro elemento">Pontinho 3</li>
+		 </ul>
+		 <form id="forma" action="cadastro.php" method="post">
+			 	<input type="text" name="Nome" placeholder="Digite seu nome..." value="">	
+		 	<input type="Text" name="Telefone" placeholder="Escreva seu telefone...">
+
+		 	<input type="text" name="Formação" placeholder="Digite seu local Formação..." value="">	
+	 		<input type="date" name="Data" placeholder="22/08/1998" value="">
+		 	
+	 	
+	 		 <select name="select">
+	 	 		<option value="valor1" selected>Sem formação</option>
+  				<option value="valor2">Aprendiz</option> 
+ 				<option value="valor3">Mago</option>
+				<option value="valor4">Archmago</option>
+			 </select>
+	 		<textarea placeholder="Pergunte aqui..."></textarea>
+	 		<button type="submit">Enviar</button>
+		 </form>
+		 <br>
+		 <span>1</span>
+		 <span>1</span>
+		 <span>1</span>
+		 <span>1</span>
+
+		 <div class="box">
+		 	<p>Olá</p>
+		 </div>
+		 <br><br><br><br><br><br><br><br><br><br>
+	 </div>
+
+	
+   	 <div id="centro">  
+		 <br>
+		 <img id="toon" src="img/imagem4.jpg">
+		 <br><br>
+		 <em class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices sagittis tortor, a congue lectus varius et. Integer lacinia purus felis, viverra finibus nibh accumsan non. Etiam at erat nisl. Suspendisse et eros pretium, dapibus ligula mattis, commodo ipsum. Phasellus ornare laoreet euismod. Vestibulum ullamcorper tincidunt maximus. Donec dolor augue, dapibus quis risus vel, rhoncus ornare eros. Integer et massa sapien. Nunc sit amet mollis augue, quis tempor ex. Etiam cursus nulla a augue posuere fringilla. Nullam in sodales turpis.</em>
+		 <br><br>
+		 <h6>Olá!</h6><br> 
+		 <img src="img/imagem.jpeg"><!--Imagens--><br><br> 
+		 <br><br>
+	    <table class="tb">
+			<thead> <!--Cabeçalho-->
+			<tr class="tabela">
+				<td class="tb">Coluna 1</td><!--Renderiza noral-->
+				<th class="tb">Coluna 2</th><!--Renderiza em negrito-->
+				<td class="tb">Coluna 3</td>
+				<th class="tb">Coluna 4</th>
+			</tr>
+			<tr class="tabela"><!--Linha 1-->
+				<td class="tb">Dado 1</td> 
+				<td class="tb">Dado 2</td>
+				<td class="tb">Dado 3</td> 
+				<td class="tb">Dado 4</td>
+			</tr>
+			<tr class="tabela"><!--Linha 2-->
+				<td class="tb">Dado 1</td>
+				<td class="tb">Dado 2</td>
+				<td class="tb">Dado 3</td> 
+				<td class="tb">Dado 4</td>
+			</tr>
+			<tr class="tabela"><!--Linha 3-->
+				<td class="tb">Dado 1</td>
+				<td class="tb">Dado 2</td> 
+				<td class="tb">Dado 3</td> 
+				<td class="tb">Dado 4</td>
+			</tr>
+			<tr class="tabela"><!--Linha 4-->
+				<td class="tb">Dado 1</td>
+				<td class="tb">Dado 2</td> 
+				<td class="tb">Dado 3</td> 
+				<td class="tb">Dado 4</td>
+			</tr>
+
+			</thead>
+	 </table><br>
+		 <img id="imagem" title="No meu massacre floreço, como uma flor no amanhecer." src="img/imagem2.jpg"> <br>
+		 <input type="Text" placeholder="Digite seu emails" >
+		 
+
+
+	 </div>
+
+
+	 <div id="rodapé"> 
+		 <h2>rodapé</h2> 
+	 </div>
+	</div>
+
+    
+</body>
+</html>
